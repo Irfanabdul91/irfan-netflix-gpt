@@ -6,7 +6,7 @@ export const API_OPTIONS  = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMWJmNjI4ZjEzMWZlYWFmNTE0NTBmNzNmOTBiODU2MyIsInN1YiI6IjY1Nzg1ZTc1YWY1OGNiMDBhZWE1YzJlYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.X86DnAee-wik0XSVemBeONaUtNY_iKrMTN9rxL2ffao'
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMWJmNjI4ZjEzMWZlYWFmNTE0NTBmNzNmOTBiODU2MyIsInN1YiI6IjY1Nzg1ZTc1YWY1OGNiMDBhZWE1YzJlYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.X86DnAee-wik0XSVemBeONaUtNY_iKrMTN9rxL2ffao' 
     }
   };
 
@@ -19,3 +19,6 @@ export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/b4c7f092-0488-
  {identifier : "hindi", name: "Hindi"},
  {identifier : "telugu", name: "Telugu"},
  {identifier : "spanish", name: "Spanish"}]
+
+ export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY
+ 
